@@ -20,6 +20,10 @@ function addtask() {
     span.classList.add("task-text");
     li.appendChild(span);
 
+    //Toggle complete
+    span.addEventListener("click",function() {
+        span.classList.toggle("completed");
+    });
 
-
+    // Create Delete Button
 
