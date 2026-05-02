@@ -35,7 +35,7 @@ function addtask() {
     li.appendChild(span);
     li.appendChild(deleteBtn);
     taskList.appendChild(li);
-    //
+    // Clear Input
 
 
 
