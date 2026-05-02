@@ -26,4 +26,10 @@ function addtask() {
     });
 
     // Create Delete Button
+    const deleteBtn = document.createElement("button");
+    deleteBtn.textContent = "X";
+    deleteBtn.classList.add("delete-btn");
+    li.appendChild(deleteBtn);
+
+    
 
