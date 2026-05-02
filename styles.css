@@ -1,6 +1,8 @@
 
-.body{
+body{
     font-family: Verdana, sans-serif;
-    background-color: black;
-
+    background: white;
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
 }
