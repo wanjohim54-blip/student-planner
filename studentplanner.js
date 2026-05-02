@@ -29,7 +29,13 @@ function addtask() {
     const deleteBtn = document.createElement("button");
     deleteBtn.textContent = "X";
     deleteBtn.classList.add("delete-btn");
+    deleteBtn.addEventListener("click", function() {
+        li.remove();
+    });
+    li.appendChild(span);
     li.appendChild(deleteBtn);
+    taskList.appendChild(li);
+    //
 
-    
+
 
