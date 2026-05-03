@@ -8,9 +8,29 @@ body {
 
 .planner{
     background: #fff;
-    padding: 30px;
+    padding: 40px 45px;
     border-radius: 15px;
-    width: 350px;
+    width: 950px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     text-align: center;
 }
+h1{
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    font-size: 20px;
+    color:rgb(28, 1, 1);
+    margin-bottom: 40px;
+}
+.task-input{
+    display:flex ;
+    gap: 20px;
+}
+input{
+    flex:1;
+    padding:20px;
+    border:2px solid #ccc;
+    border-radius: 10px;
+}
+
