@@ -36,10 +36,12 @@ input{
 }
 
 
-body{
-    font-family: Verdana, sans-serif;
-    background: white;
-    display: flex;
-    margin-top: 60px;
-    justify-content: center;
+button{
+    padding: 20px;
+    border:none;
+    background-color: #282928;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
 }
+
